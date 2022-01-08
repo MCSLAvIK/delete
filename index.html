@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Макет; Верстка; Travel; Ravel;">
+    <meta name="description" content="Макет Ravel">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/adapt.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Travel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <a href="#"><img src="./img/logo.svg" alt="logo" class="header-logo-img"></a>
+            <p class="logo-word-text">R A V E L</p>
+        </div>
+        <div class="menu">
+            <nav class="header-nav">
+                <a href="#" class="header-nav-link">Destination</a>
+                <a href="#" class="header-nav-link">Offer</a>
+                <a href="#" class="header-nav-link">Tour</a>
+                <a href="#" class="header-nav-link">Blog</a>
+            </nav>
+        </div>
+        <div class="header-profile">
+            <a href=""><img src="./img/user.svg" alt="header-user" class="header-user-img"></a>
+            <a href="#" class="header-profile-link">My account</a>
+            <a href=""><img src="./img/search.svg" alt="header-search" class="header-search-img"></a>
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <script>
+            let menuBtn = document.querySelector('.menu-btn');
+            let menu = document.querySelector('.menu');
+
+            menuBtn.addEventListener('click', function() {
+            menuBtn.classList.toggle('active');
+            menu.classList.toggle('active');
+            })
+        </script>
+    </header>
+    <div class="explore-world">
+        <p class="explore-world-text">It’s Time To
+        Explore The World</p>
+        <a href="#" class="explore-world-link">Plan Your Trip</a>
+    </div>
+    <div class="explore-world-extra">
+        <div class="explore-world-more">
+            <div class="sign1">
+                <img src="./img/left.svg" alt="" class="sign-img">
+            </div>
+            <div class="sign2">
+                <img src="./img/right.svg" alt="" class="sign-img">
+            </div>
+            <hr class="explore-world-more-strip">
+            <p class="explore-world-more-nomber">03</p>
+        </div>
+
+        <div class="explore-world-info">
+            <div class="explore-world-info-sub">
+                <div class="explore-world-info-sub-container">
+                    <p class="explore-world-info-sub-title">Destinations</p>
+                    <select class="explore-world-info-sub-input1">
+                        <option>Arab Egypt</option>
+                    </select>
+                </div>
+            </div>
+            <div class="explore-world-info-sub">
+               <div class="explore-world-info-sub-container">
+                    <p class="explore-world-info-sub-title">Check In</p>
+                    <select class="explore-world-info-sub-input2">
+                        <option>01 Feb, 2021</option>
+                    </select>
+                </div>
+                <img src="./img/calender.svg" alt="" class="explore-world-info-sub-img">
+            </div>
+            <div class="explore-world-info-sub">
+                <div class="explore-world-info-sub-container">
+                    <p class="explore-world-info-sub-title">Price Range</p>
+                    <select class="explore-world-info-sub-input3">
+                        <option>$500 - $10,0000</option>
+                    </select>
+                </div>
+                <img src="./img/dollar.svg" alt="" class="explore-world-info-sub-img">
+            </div>
+            <a href="#" class="explore-world-info-link">Discover Now</a>
+        </div>
+    </div>
+    <div class="change-move">
+        <div class="change-move-container">
+            <img src="./img/map.svg" alt="" class="change-move-container-img">
+            <p class="change-move-container-title">Choose Destination</p>
+            <h3 class="change-move-container-text">Lorem Ipsum is simply dummy text of the printing setting</h3>
+        </div>
+        <div class="change-move-container">
+            <img src="./img/binocular.svg" alt="" class="change-move-container-img">
+            <p class="change-move-container-title">Explore The Place</p>
+            <h3 class="change-move-container-text">Lorem Ipsum is simply dummy text of the printing setting</h3>
+        </div>
+        <div class="change-move-container">
+            <img src="./img/backpack.svg" alt="" class="change-move-container-img">
+            <p class="change-move-container-title">Start Your Journey</p>
+            <h3 class="change-move-container-text">Lorem Ipsum is simply dummy text of the printing setting</h3>
+        </div>
+        <div class="change-move-container">
+            <img src="./img/ukelele.svg" alt="" class="change-move-container-img">
+            <p class="change-move-container-title">Let’s Enjoy</p>
+            <h3 class="change-move-container-text">Lorem Ipsum is simply dummy text of the printing setting</h3>
+        </div>
+    </div>
+    <div class="destinations">
+        <div class="destinations-top">
+            <div class="destinations-top-sub">
+                <p class="destinations-top-title1">Top</p>
+                <h3 class="destinations-top-title2">Destinations</h3>
+            </div>
+            <p class="destinations-top-title3">In The World</p>
+            <h3 class="destinations-top-text">It is a long established fact
+            that a reader will be the distracted by the readable content of a page when looking at its layout
+            from it.</h3>
+            <a href="#" class="destinations-top-link">Discover Now</a>
+        </div>
+        <div class="destinations-country1">
+            <p class="destinations-country-text">Cuba City</p>
+        </div>
+        <div class="destinations-country2">
+            <p class="destinations-country-text">Paris</p>
+        </div>
+        <div class="destinations-country3">
+            <p class="destinations-country-text">Japan</p>
+        </div>
+    </div>
+</body>
+</html>

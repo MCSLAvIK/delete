@@ -371,9 +371,9 @@
     transform: scale(1.1);
   }
   .destinations-country1 {
-    width: 100% !important;
+    width: 98% !important;
     height: 350px !important;
-    background: url(../img/cuba.svg) center no-repeat;
+    background: url(../img/cuba.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     margin-left: 0px !important;
@@ -388,9 +388,9 @@
     transform: none !important;
   }
   .destinations-country2 {
-    width: 100% !important;
+    width: 98% !important;
     height: 350px !important;
-    background: url(../img/paris.svg) center no-repeat;
+    background: url(../img/paris.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     margin-left: 0px !important;
@@ -405,9 +405,9 @@
     transform: none !important;
   }
   .destinations-country3 {
-    width: 100% !important;
+    width: 98% !important;
     height: 350px !important;
-    background: url(../img/japan.svg) center no-repeat;
+    background: url(../img/japan.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     border-radius: 5px;

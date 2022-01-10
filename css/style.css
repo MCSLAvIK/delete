@@ -430,3 +430,78 @@ option {
   color: #2c2c2c;
   margin-left: 10px;
 }
+.happy-customers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.happy-customers-title {
+  width: 70%;
+  text-align: center;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 65px;
+  color: #2c2c2c;
+}
+.happy-customers-strip {
+  width: 65%;
+  height: 10px;
+  background-color: #ff715b;
+  border: none;
+}
+.happy-customers-profile {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.happy-customers-profile-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+.happy-customers-profile-sub {
+  display: block;
+}
+.happy-customers-profile-sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+.happy-customers-profile-sub-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ff715b;
+}
+.happy-customers-text {
+  width: 60%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #a79997;
+  margin-bottom: 30px;
+}
+.happy-customers-dots {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.happy-customers-dot-off {
+  width: 10px;
+  height: 10px;
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.happy-customers-dot-on {
+  width: 10px;
+  height: 10px;
+  background-color: #ff715b;
+  border-radius: 5px;
+  margin-left: 5px;
+}
